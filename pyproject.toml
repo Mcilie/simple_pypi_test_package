@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple_pypi_test_package"
+version = "0.1.0"
+description = "A simple test package that prints a welcome message when imported"
+authors = [{name = "Mcilie"}]
+requires-python = ">=3.6"
